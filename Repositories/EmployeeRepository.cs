@@ -12,8 +12,7 @@ namespace EmployeeManagement.Repositories
         }
         public Task AddAsync(Employee employee)
         {
-            var newEmployee = _appDBContext.Add(employee);
-            return newEmployee;
+            throw new NotImplementedException();
         }
 
         public Task DeleteAsync(int id)
